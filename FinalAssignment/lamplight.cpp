@@ -6,7 +6,6 @@ Texture* Lamplight::texture = nullptr;
 Lamplight::Lamplight()
 {
 	mesh_type = cone;
-	shader_type = lambert;
 }
 
 Material* Lamplight::GetMaterial()

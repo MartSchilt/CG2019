@@ -5,7 +5,7 @@ Texture* Can::texture = nullptr;
 Can::Can()
 {
 	mesh_type = can;
-	shader_type = lambert;
+	shader_type = phong;
 	grow = true;
 }
 

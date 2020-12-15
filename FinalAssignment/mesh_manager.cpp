@@ -53,7 +53,7 @@ Vao MeshManager::GetVao(GLuint shader_id, MeshType type)
         case wheel:
             vaos[type] = LoadVao(shader_id, "Objects/wheel.obj");
             break;
-        case null:
+        default:
             break;
         }
     }
@@ -63,7 +63,6 @@ Vao MeshManager::GetVao(GLuint shader_id, MeshType type)
 
 Vao MeshManager::LoadVao(GLuint shader_id, const char* path)
 {
-    // geometry
     vector<glm::vec3> vertices;
     vector<glm::vec3> normals;
     vector<glm::vec2> uvs;

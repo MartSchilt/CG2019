@@ -180,7 +180,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="lambertfragmentshader.fsh" />
-    <None Include="skyfragmentshader.fsh" />
+    <None Include="standardfragmentshader.fsh" />
     <None Include="vertexshader.vsh">
       <FileType>Document</FileType>
     </None>

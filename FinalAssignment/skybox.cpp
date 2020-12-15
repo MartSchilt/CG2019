@@ -7,7 +7,7 @@ Texture* Skybox::texture = nullptr;
 Skybox::Skybox()
 {
 	mesh_type = cubeSkybox;
-	shader_type = sky;
+	shader_type = standard;
 	texture_path = "Textures/skybox.bmp";
 }
 

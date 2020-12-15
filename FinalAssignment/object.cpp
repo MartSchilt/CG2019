@@ -2,14 +2,16 @@
 
 Object::Object()
 {
-	mesh_type = null;
-	shader_type = phong;
+	// Initialize vectors
 	model = new glm::mat4();
 	position = glm::vec3(0, 0, 0);
 	scale = glm::vec3(1.0, 1.0, 1.0);
 	rotation = glm::vec3(0, 0, 0);
-	// This is a placeholder textures
+	
+	// These are placeholders so implementation is easier
 	texture_path = "Textures/Yellobrk";
+	mesh_type = cube;
+	shader_type = standard;
 }
 
 Object::~Object()

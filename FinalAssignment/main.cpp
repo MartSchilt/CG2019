@@ -30,7 +30,7 @@ const int WIDTH = 1280, HEIGHT = 720;
 // Shaders
 const char* phongfragshader_name = "phongfragmentshader.fsh";
 const char* lambertfragshader_name = "lambertfragmentshader.fsh";
-const char* skyfragshader_name = "skyfragmentshader.fsh";
+const char* skyfragshader_name = "standardfragmentshader.fsh";
 const char* vertexshader_name = "vertexshader.vsh";
 const int shaderAmount = 3;
 

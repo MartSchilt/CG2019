@@ -208,7 +208,7 @@
     <None Include="phongfragmentshader.fsh">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="skyfragmentshader.fsh">
+    <None Include="standardfragmentshader.fsh">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>
