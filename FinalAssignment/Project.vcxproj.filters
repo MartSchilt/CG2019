@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chickenbase.cpp">
+      <Filter>Source Files\objects\chicken</Filter>
+    </ClCompile>
+    <ClCompile Include="chickenbody.cpp">
+      <Filter>Source Files\objects\chicken</Filter>
+    </ClCompile>
+    <ClCompile Include="chickenleg.cpp">
+      <Filter>Source Files\objects\chicken</Filter>
+    </ClCompile>
+    <ClCompile Include="slide.cpp">
+      <Filter>Source Files\objects\chicken</Filter>
+    </ClCompile>
+    <ClCompile Include="pavement.cpp">
+      <Filter>Source Files\objects\floor</Filter>
+    </ClCompile>
+    <ClCompile Include="grass.cpp">
+      <Filter>Source Files\objects\floor</Filter>
+    </ClCompile>
+    <ClCompile Include="woodchips.cpp">
+      <Filter>Source Files\objects\floor</Filter>
+    </ClCompile>
+    <ClCompile Include="wheel.cpp">
+      <Filter>Source Files\objects\bike</Filter>
+    </ClCompile>
+    <ClCompile Include="bikeframe.cpp">
+      <Filter>Source Files\objects\bike</Filter>
+    </ClCompile>
+    <ClCompile Include="football.cpp">
+      <Filter>Source Files\objects\other</Filter>
+    </ClCompile>
+    <ClCompile Include="bush.cpp">
+      <Filter>Source Files\objects\house</Filter>
+    </ClCompile>
+    <ClCompile Include="groundfloor.cpp">
+      <Filter>Source Files\objects\house</Filter>
+    </ClCompile>
+    <ClCompile Include="firstfloor.cpp">
+      <Filter>Source Files\objects\house</Filter>
+    </ClCompile>
+    <ClCompile Include="skybox.cpp">
+      <Filter>Source Files\objects\other</Filter>
+    </ClCompile>
+    <ClCompile Include="roof.cpp">
+      <Filter>Source Files\objects\house</Filter>
+    </ClCompile>
+    <ClCompile Include="canopy.cpp">
+      <Filter>Source Files\objects\house</Filter>
+    </ClCompile>
+    <ClCompile Include="pole.cpp">
+      <Filter>Source Files\objects\house</Filter>
+    </ClCompile>
+    <ClCompile Include="geometrymanager.cpp">
+      <Filter>Source Files\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>Source Files\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="objectmanager.cpp">
+      <Filter>Source Files\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="objloader.cpp">
+      <Filter>Source Files\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="aircraft.cpp">
+      <Filter>Source Files\objects\other</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glsl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="chickenbase.h">
+      <Filter>Header Files\objects\chicken</Filter>
+    </ClInclude>
+    <ClInclude Include="chickenbody.h">
+      <Filter>Header Files\objects\chicken</Filter>
+    </ClInclude>
+    <ClInclude Include="chickenleg.h">
+      <Filter>Header Files\objects\chicken</Filter>
+    </ClInclude>
+    <ClInclude Include="slide.h">
+      <Filter>Header Files\objects\chicken</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bikeframe.h">
+      <Filter>Header Files\objects\bike</Filter>
+    </ClInclude>
+    <ClInclude Include="wheel.h">
+      <Filter>Header Files\objects\bike</Filter>
+    </ClInclude>
+    <ClInclude Include="pavement.h">
+      <Filter>Header Files\objects\floor</Filter>
+    </ClInclude>
+    <ClInclude Include="woodchips.h">
+      <Filter>Header Files\objects\floor</Filter>
+    </ClInclude>
+    <ClInclude Include="grass.h">
+      <Filter>Header Files\objects\floor</Filter>
+    </ClInclude>
+    <ClInclude Include="football.h">
+      <Filter>Header Files\objects\other</Filter>
+    </ClInclude>
+    <ClInclude Include="objectmanager.h">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="geometrymanager.h">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="objloader.h">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="firstfloor.h">
+      <Filter>Header Files\objects\house</Filter>
+    </ClInclude>
+    <ClInclude Include="groundfloor.h">
+      <Filter>Header Files\objects\house</Filter>
+    </ClInclude>
+    <ClInclude Include="skybox.h">
+      <Filter>Header Files\objects\other</Filter>
+    </ClInclude>
+    <ClInclude Include="roof.h">
+      <Filter>Header Files\objects\house</Filter>
+    </ClInclude>
+    <ClInclude Include="bush.h">
+      <Filter>Header Files\objects\house</Filter>
+    </ClInclude>
+    <ClInclude Include="canopy.h">
+      <Filter>Header Files\objects\house</Filter>
+    </ClInclude>
+    <ClInclude Include="pole.h">
+      <Filter>Header Files\objects\house</Filter>
+    </ClInclude>
+    <ClInclude Include="aircraft.h">
+      <Filter>Header Files\objects\other</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{165aa914-4a7a-4647-87b6-8c4dfa3c0f8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{50f822d7-08d8-4b99-92ed-244294234f73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{04b37cd2-fd1e-4e5d-a923-99e7fba21f53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\objects">
+      <UniqueIdentifier>{9469782f-75e5-413b-ba49-2cd37d1909f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\objects">
+      <UniqueIdentifier>{82d49589-c4ed-4791-bc3c-6b0d035acea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\objects\chicken">
+      <UniqueIdentifier>{3815985c-771a-4a08-8578-3555342d4a69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\objects\chicken">
+      <UniqueIdentifier>{db8df560-bae9-426c-9af7-5a6ab52ef353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\objects\bike">
+      <UniqueIdentifier>{1df522f8-6ca9-4fbf-9a8d-d5046c2071e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\objects\floor">
+      <UniqueIdentifier>{b1875933-952b-4e9c-a417-358f94bb87e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\objects\bike">
+      <UniqueIdentifier>{0bbe1306-f448-4241-8337-89ac758f49c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\objects\floor">
+      <UniqueIdentifier>{d1c310f3-fede-489c-b55a-3912bdeade80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\objects\other">
+      <UniqueIdentifier>{8e7b9c68-75be-4532-9568-31777ad80354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\objects\other">
+      <UniqueIdentifier>{57e087bb-e1bb-46d6-ac7d-c023e9405cb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\objects\house">
+      <UniqueIdentifier>{c7a5dbb6-2285-4ce2-bfad-9cdc940ca159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\objects\house">
+      <UniqueIdentifier>{6eaa8a7f-de7d-486d-acc2-c50ef465f527}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vertexshader.vsh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="lambertfragmentshader.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="phongfragmentshader.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="skyfragmentshader.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project.rc" />
+  </ItemGroup>
+</Project>
