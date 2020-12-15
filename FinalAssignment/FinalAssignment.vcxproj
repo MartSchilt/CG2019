@@ -176,6 +176,7 @@
     <ClInclude Include="roof.h" />
     <ClInclude Include="skybox.h" />
     <ClInclude Include="dirt.h" />
+    <ClInclude Include="structs_and_enums.h" />
     <ClInclude Include="wheel.h" />
   </ItemGroup>
   <ItemGroup>

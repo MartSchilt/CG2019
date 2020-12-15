@@ -7,23 +7,10 @@
 #include <glm/gtc/matrix_transform.hpp>
 
 #include "texture.h"
+#include "structs_and_enums.h";
 #include "mesh_manager.h"
 
 using namespace std;
-
-enum ShaderType { phong, lambert, standard };
-
-struct Material {
-	glm::vec3 ambient_color;	// Ambient lighting, simulates light from other sources.
-	glm::vec3 diffuse_color;	// Diffuse lighting, simulates the directional impact a light object has on an object.
-	glm::vec3 specular;			// Specular lightning, simulates the bright spot of a light.
-	float power;
-};
-
-struct Texture {
-	GLuint texture_id;
-	bool active;
-};
 
 class Object
 {

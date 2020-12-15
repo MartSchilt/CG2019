@@ -144,6 +144,9 @@
     <ClInclude Include="objloader.h">
       <Filter>Header Files\Objects</Filter>
     </ClInclude>
+    <ClInclude Include="structs_and_enums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">

@@ -3,15 +3,9 @@
 #include <glm/glm.hpp>
 #include <vector>
 #include "objloader.h"
+#include "structs_and_enums.h";
 
 using namespace std;
-
-enum MeshType { bikeFrame, bikeRack, can, cone, cube, cubeSkybox, cylinder, lamppost, plane, wheel, null };
-
-struct Vao {
-	GLuint id;
-    int size;
-};
 
 class MeshManager
 {
