@@ -27,7 +27,7 @@ Texture* Skybox::GetTexture()
 	if (texture == nullptr)
 	{
 		texture = new Texture();
-		texture->texture_id = loadBMP("Textures/skyboxBak.bmp");
+		texture->texture_id = loadBMP("Textures/skybox.bmp");
 		texture->active = true;
 	}
 
