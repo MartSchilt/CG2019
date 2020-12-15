@@ -8,6 +8,7 @@ Skybox::Skybox()
 {
 	mesh_type = cubeSkybox;
 	shader_type = sky;
+	texture_path = "Textures/skybox.bmp";
 }
 
 Material* Skybox::GetMaterial()
@@ -27,7 +28,7 @@ Texture* Skybox::GetTexture()
 	if (texture == nullptr)
 	{
 		texture = new Texture();
-		texture->texture_id = loadBMP("Textures/skybox.bmp");
+		texture->texture_id = loadBMP(texture_path);
 		texture->active = true;
 	}
 

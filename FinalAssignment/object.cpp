@@ -8,6 +8,8 @@ Object::Object()
 	position = glm::vec3(0, 0, 0);
 	scale = glm::vec3(1.0, 1.0, 1.0);
 	rotation = glm::vec3(0, 0, 0);
+	// This is a placeholder textures
+	texture_path = "Textures/Yellobrk";
 }
 
 Object::~Object()
@@ -17,86 +19,59 @@ Object::~Object()
 
 const Vao& Object::GetVao(GLuint shader_id) const
 {
-	// Returns vao
+	// Returns the vao
 	return MeshManager::GetInstance()->GetVao(shader_id, mesh_type);
 }
 
+// Safeholder in case if an object doesn't implement the Animate function
 void Object::Animate()
-{
-	// Animation behaviour
-}
+{ }
 
 glm::mat4 Object::GetModel()
 {
-	// Returns model
+	// Returns the model
 	return *model;
 }
 
 ShaderType Object::GetShaderType()
 {
-	// Returns shader
+	// Returns the shader
 	return shader_type;
 }
 
 void Object::Position(float x, float y, float z)
 {
-	// Sets xyz positions
+	// Sets x, y and z location
 	position = glm::vec3(x, y, z);
 	UpdateModel();
 }
 
-void Object::Scale(float size)
+void Object::Scale(float scale_size)
 {
-	// Set the scale for the xyz
-	scale = glm::vec3(size, size, size);
+	// Set the scale for the x- y- and z-axis as a whole
+	scale = glm::vec3(scale_size, scale_size, scale_size);
 	UpdateModel();
 }
 
-void Object::ScaleX(float size)
+void Object::Scale(float scale_x, float scale_y, float scale_z = 1)
 {
-	// Set the scale for the x-axis
-	scale.x = size;
+	// Set the scale for the x- y- and z-axis separately
+	scale = glm::vec3(scale_x, scale_y, scale_z);
 	UpdateModel();
 }
 
-void Object::ScaleY(float size)
+void Object::Rotate(float angle_x, float angle_y, float angle_z)
 {
-	// Set the scale for the y-axis
-	scale.y = size;
-	UpdateModel();
-}
-
-void Object::ScaleZ(float size)
-{
-	// Set the sclae on the z-axis
-	scale.z = size;
-	UpdateModel();
-}
-
-void Object::RotateX(float angle)
-{
-	// Set rotation on the x-axis
-	rotation.x = angle;
-	UpdateModel();
-}
-
-void Object::RotateY(float angle)
-{
-	// Set rotation on the y-axis
-	rotation.y = angle;
-	UpdateModel();
-}
-
-void Object::RotateZ(float angle)
-{
-	// Set rotation on the z-axis
-	rotation.z = angle;
+	// Set rotation on the x- y- and z-axis
+	rotation.x = angle_x;
+	rotation.y = angle_y;
+	rotation.z = angle_z;
 	UpdateModel();
 }
 
 void Object::UpdateModel()
 {
-	// Update the model in the right 
+	// Update the model by translating, rotating and scaling
 	*model = glm::translate(glm::mat4(), position);
 	*model = glm::rotate(*model, glm::radians(rotation.x), glm::vec3(1.0, 0.0, 0.0));
 	*model = glm::rotate(*model, glm::radians(rotation.y), glm::vec3(0.0, 1.0, 0.0));

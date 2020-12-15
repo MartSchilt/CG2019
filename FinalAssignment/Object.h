@@ -38,16 +38,13 @@ public:
 	ShaderType GetShaderType();
 	void Position(float x, float y, float z);
 	void Scale(float size);
-	void ScaleX(float size);
-	void ScaleY(float size);
-	void ScaleZ(float size);
-	void RotateX(float angle);
-	void RotateY(float angle);
-	void RotateZ(float angle);
+	void Scale(float scale_x, float scale_y, float scale_z);
+	void Rotate(float angle_x, float angle_y, float angle_z);
 
 protected:
 	MeshType mesh_type;
 	ShaderType shader_type;
+	const char* texture_path;
 	void UpdateModel();
 	static Material* material;
 	static Texture* texture;

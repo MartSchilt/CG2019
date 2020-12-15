@@ -52,7 +52,7 @@ void Camera::ProcessInput(unsigned char key, int a, int b)
 	switch (key)
 	{
 	case'c':
-		// Change mode
+		// Change the mode
 		walk_mode = !walk_mode;
 		*camera_pos = (walk_mode) ? glm::vec3(0.0f, 2.0f, 0.0f) : glm::vec3(0.0f, 25.0f, 40.0f);
 		pitch = (walk_mode) ? 0 : -45;

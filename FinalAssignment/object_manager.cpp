@@ -43,7 +43,7 @@ void ObjectManager::InitWorld()
     Object* skybox = new Skybox();
     skybox->Scale(50);
     skybox->Position(10, 0, 30);
-    skybox->RotateZ(180);
+    skybox->Rotate(0, 0, 180);
     objects.push_back(skybox);
 
     std::vector<Object*>* bike1 = CreateBike(19, 20);
@@ -117,7 +117,7 @@ std::vector<Object*>* ObjectManager::CreateBikeRacks(float x, float z)
         if (i != 2) {
             Object* bike_rack = new BikeRack();
             bike_rack->Scale(1.5f);
-            bike_rack->RotateY(90);
+            bike_rack->Rotate(0, 90, 0);
             bike_rack->Position(x, 0.0f, (z + (1.5f * i)));
             bikeracks->push_back(bike_rack);
         }
@@ -144,9 +144,7 @@ vector<Object*>* ObjectManager::CreateFence(float xMin, float xMax, float zMin, 
         // Create all the fenceposts
         Object* fence_post = new Fencepost();
         fence_post->Position(cords[i][0] - 1, 0.5, cords[i][1] - 1);
-        fence_post->ScaleX(0.1);
-        fence_post->ScaleY(0.5);
-        fence_post->ScaleZ(0.1);
+        fence_post->Scale(0.1, 0.5, 0.1);
         fence->push_back(fence_post);
 
         // Create the fenceboards
@@ -154,8 +152,7 @@ vector<Object*>* ObjectManager::CreateFence(float xMin, float xMax, float zMin, 
             if (!(i % 2)) {
                 Object* fence_board2 = new FenceBoard();
                 fence_board2->Position(cords[i][0] - 1.0, 0.875, cords[i][1] + j);
-                fence_board2->ScaleX(0.05);
-                fence_board2->ScaleY(0.1);
+                fence_board2->Scale(0.05, 0.1, 1);
                 fence->push_back(fence_board2);
             }
         }
@@ -163,9 +160,8 @@ vector<Object*>* ObjectManager::CreateFence(float xMin, float xMax, float zMin, 
             if (i < 2) {
                 Object* fence_board1 = new FenceBoard();
                 fence_board1->Position(cords[i][0] + j, 0.875, cords[i][1] - 1);
-                fence_board1->ScaleX(0.05);
-                fence_board1->ScaleY(0.1);
-                fence_board1->RotateY(90);
+                fence_board1->Scale(0.05, 0.1, 1);
+                fence_board1->Rotate(0, 90, 0);
                 fence->push_back(fence_board1);
             }
         }
@@ -211,7 +207,7 @@ vector<Object*>* ObjectManager::CreateHouse(float x, float z)
         if (width >= quarterWidth && width < (widthMax - quarterWidth) - 1) {
             placeholder = new Elevation();
             placeholder->Position(x - 8, 4.5, z + width);
-            placeholder->ScaleY(0.5);
+            placeholder->Scale(1, 0.5, 1);
             house->push_back(placeholder);
         }
 
@@ -297,8 +293,8 @@ vector<Object*>* ObjectManager::CreateHouse(float x, float z)
                             placeholder = new Roof();
                             if (height > 13) placeholder->Position(x + (depth + 2), height, z + width);
                             else placeholder->Position(x + depth, height, z + width);
-                            placeholder->RotateZ(45);
-                            placeholder->ScaleX(1.42);
+                            placeholder->Rotate(0, 0, 45);
+                            placeholder->Scale(1.42, 1, 1);
                             house->push_back(placeholder);
                         }
                     }
@@ -315,13 +311,13 @@ std::vector<Object*>* ObjectManager::CreateLamp(float x, float z)
     vector<Object*>* lamp = new vector<Object*>();
 
     Object* lamp_post = new Lamppost();
-    lamp_post->ScaleY(1.5f);
+    lamp_post->Scale(1, 1.5, 1);
     lamp_post->Position(x, 2.25f, z);
     lamp->push_back(lamp_post);
 
     Object* lamp_light = new Lamplight();
-    lamp_light->Scale(0.45f);
-    lamp_light->RotateX(180);
+    lamp_light->Scale(0.45);
+    lamp_light->Rotate(180, 0, 0);
     lamp_light->Position(x, 4.8f, z);
     lamp->push_back(lamp_light);
 
@@ -333,7 +329,7 @@ std::vector<Object*>* ObjectManager::CreateOther()
     vector<Object*>* other = new vector<Object*>();
 
     Object* spinning_can = new Can();
-    spinning_can->Scale(0.95f);
+    spinning_can->Scale(0.95);
     spinning_can->Position(26, 0.1f, 30);
     other->push_back(spinning_can);
 
