@@ -2,8 +2,7 @@
 #include <GL/glew.h>
 #include <glm/glm.hpp>
 #include <vector>
-#include "objloader.h"
-#include "structs_and_enums.h";
+#include "structs_and_enums.h"
 
 using namespace std;
 

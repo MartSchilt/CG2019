@@ -1,5 +1,4 @@
 #include "object_manager.h"
-#include <list>
 // Include the Object header files here
 #include "skybox.h"
 #include "pavement.h"

@@ -1,18 +1,7 @@
 #pragma once
 #include <GL/glew.h>
-#include <GL/freeglut.h>
-
-#include <glm/glm.hpp>
-#include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
-
-#include "glsl.h"
-#include "objloader.h"
-#include "texture.h"
 #include "object.h"
-
-#include "camera.h"
-#include <list>
 #include "object_manager.h"
 
 class ObjectManager
