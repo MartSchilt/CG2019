@@ -1,0 +1,34 @@
+15-11
+Was bezig met de versie van Os hierin te zetten om te gebruiken.
+Moet originele code weer terug doen wat werkt maar heb dat al voor de lectures gedaan
+
+16-11
+Al wat meer omgezet. Ben nu bezig met eigen bmp files intergreren. https://cc0textures.com/
+Het makkelijkst is om free materials om te zetten naar bmp
+op convertio
+Je moet ambient en diffuse color wel juist zetten anders lijkt de texture fuckt http://wiki.secondlife.com/wiki/LlSetColor
+Verder ben ik bezig met een plattegrond maken
+
+25-11
+Ambient color is de kleur van het object in de schaduw / ambient licht
+Diffuse color is de kleur van het object in het directe licht
+
+Heb het huis zo goed als af, moet alleen nog die hond zelf modelen.
+Heb ook fences toegevoegd
+
+30-11
+https://www.turbosquid.com/3d-model/free/car
+
+Heb met kjell gekeken naar blender (zie discord chat met kjell over aantekeningen).
+Heb een lamppost toegevoegd en bikeracks
+
+01-12
+Heb een fiets gemodelled en heb er een animatie aan toegevoegd
+Ik ben bang dat de fiets als 1 animatie wordt gezien dus ik ga er nog 1 verzinnen
+Heb nu een flipping can gedaan als 2e animatie.
+Moet volgende keer bezig gaan met code cleanen
+
+10-12
+Begonnen met wat code cleanen
+Alle classes, files en etc volgen de google naming convention
+Verder al bezig met wat dingen weghalen die niet worden gebruikt
