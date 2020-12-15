@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pavement.cpp">
+      <Filter>Source Files\Objects\Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="skybox.cpp">
+      <Filter>Source Files\Objects\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="roof.cpp">
+      <Filter>Source Files\Objects\House</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="dirt.cpp">
+      <Filter>Source Files\Objects\Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="elevation.cpp">
+      <Filter>Source Files\Objects\House</Filter>
+    </ClCompile>
+    <ClCompile Include="fencepost.cpp">
+      <Filter>Source Files\Objects\Fence</Filter>
+    </ClCompile>
+    <ClCompile Include="lamppost.cpp">
+      <Filter>Source Files\Objects\Lamp</Filter>
+    </ClCompile>
+    <ClCompile Include="wheel.cpp">
+      <Filter>Source Files\Objects\Bike</Filter>
+    </ClCompile>
+    <ClCompile Include="lamplight.cpp">
+      <Filter>Source Files\Objects\Lamp</Filter>
+    </ClCompile>
+    <ClCompile Include="can.cpp">
+      <Filter>Source Files\Objects\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="bike_frame.cpp">
+      <Filter>Source Files\Objects\Bike</Filter>
+    </ClCompile>
+    <ClCompile Include="fence_board.cpp">
+      <Filter>Source Files\Objects\Fence</Filter>
+    </ClCompile>
+    <ClCompile Include="dark_pavement.cpp">
+      <Filter>Source Files\Objects\Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="other_floor.cpp">
+      <Filter>Source Files\Objects\House</Filter>
+    </ClCompile>
+    <ClCompile Include="ground_floor.cpp">
+      <Filter>Source Files\Objects\House</Filter>
+    </ClCompile>
+    <ClCompile Include="bike_rack.cpp">
+      <Filter>Source Files\Objects\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh_manager.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="object_manager.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="objloader.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glsl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pavement.h">
+      <Filter>Header Files\Objects\Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="skybox.h">
+      <Filter>Header Files\Objects\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="roof.h">
+      <Filter>Header Files\Objects\House</Filter>
+    </ClInclude>
+    <ClInclude Include="dirt.h">
+      <Filter>Header Files\Objects\Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="elevation.h">
+      <Filter>Header Files\Objects\House</Filter>
+    </ClInclude>
+    <ClInclude Include="fencepost.h">
+      <Filter>Header Files\Objects\Fence</Filter>
+    </ClInclude>
+    <ClInclude Include="lamppost.h">
+      <Filter>Header Files\Objects\Lamp</Filter>
+    </ClInclude>
+    <ClInclude Include="wheel.h">
+      <Filter>Header Files\Objects\Bike</Filter>
+    </ClInclude>
+    <ClInclude Include="lamplight.h">
+      <Filter>Header Files\Objects\Lamp</Filter>
+    </ClInclude>
+    <ClInclude Include="can.h">
+      <Filter>Header Files\Objects\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="dark_pavement.h">
+      <Filter>Header Files\Objects\Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="ground_floor.h">
+      <Filter>Header Files\Objects\House</Filter>
+    </ClInclude>
+    <ClInclude Include="other_floor.h">
+      <Filter>Header Files\Objects\House</Filter>
+    </ClInclude>
+    <ClInclude Include="fence_board.h">
+      <Filter>Header Files\Objects\Fence</Filter>
+    </ClInclude>
+    <ClInclude Include="bike_frame.h">
+      <Filter>Header Files\Objects\Bike</Filter>
+    </ClInclude>
+    <ClInclude Include="bike_rack.h">
+      <Filter>Header Files\Objects\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh_manager.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="object_manager.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="objloader.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{165aa914-4a7a-4647-87b6-8c4dfa3c0f8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{50f822d7-08d8-4b99-92ed-244294234f73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{04b37cd2-fd1e-4e5d-a923-99e7fba21f53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{82d49589-c4ed-4791-bc3c-6b0d035acea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\Bike">
+      <UniqueIdentifier>{20b2bb9b-766e-4b85-a084-ec4edd3bad5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\Fence">
+      <UniqueIdentifier>{4e6b4146-b880-48d9-af31-eb437838d822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\Floor">
+      <UniqueIdentifier>{d1c310f3-fede-489c-b55a-3912bdeade80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\House">
+      <UniqueIdentifier>{6eaa8a7f-de7d-486d-acc2-c50ef465f527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\Lamp">
+      <UniqueIdentifier>{7907e1aa-d1f2-44c0-b637-0b9ff7906acc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\Other">
+      <UniqueIdentifier>{8e7b9c68-75be-4532-9568-31777ad80354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{9469782f-75e5-413b-ba49-2cd37d1909f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\Bike">
+      <UniqueIdentifier>{dd16d14f-d977-4a27-a424-99671fb57e22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\Fence">
+      <UniqueIdentifier>{2a483b18-ed82-4a18-8ba3-1d67d2c0ddc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\Floor">
+      <UniqueIdentifier>{b1875933-952b-4e9c-a417-358f94bb87e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\House">
+      <UniqueIdentifier>{c7a5dbb6-2285-4ce2-bfad-9cdc940ca159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\Lamp">
+      <UniqueIdentifier>{c958a54c-8b6b-4c9a-b724-8406a03f824f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\Other">
+      <UniqueIdentifier>{57e087bb-e1bb-46d6-ac7d-c023e9405cb0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vertexshader.vsh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="lambertfragmentshader.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="phongfragmentshader.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="skyfragmentshader.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project.rc" />
+  </ItemGroup>
+</Project>
