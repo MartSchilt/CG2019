@@ -132,6 +132,7 @@
     <ClCompile Include="bike_rack.cpp" />
     <ClCompile Include="camera.cpp" />
     <ClCompile Include="can.cpp" />
+    <ClCompile Include="dog.cpp" />
     <ClCompile Include="elevation.cpp" />
     <ClCompile Include="fence_board.cpp" />
     <ClCompile Include="fencepost.cpp" />
@@ -158,6 +159,7 @@
     <ClInclude Include="bike_rack.h" />
     <ClInclude Include="camera.h" />
     <ClInclude Include="can.h" />
+    <ClInclude Include="dog.h" />
     <ClInclude Include="elevation.h" />
     <ClInclude Include="fence_board.h" />
     <ClInclude Include="fencepost.h" />

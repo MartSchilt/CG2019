@@ -42,6 +42,9 @@ Vao MeshManager::GetVao(GLuint shader_id, MeshType type)
         case cylinder:
             vaos[type] = LoadVao(shader_id, "Objects/cylinder.obj");
             break;
+        case dog:
+            vaos[type] = LoadVao(shader_id, "Objects/dog.obj");
+            break;
         case lamppost:
             vaos[type] = LoadVao(shader_id, "Objects/lamppost.obj");
             break;

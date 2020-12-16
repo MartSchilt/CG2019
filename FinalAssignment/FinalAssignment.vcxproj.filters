@@ -73,6 +73,9 @@
     <ClCompile Include="objloader.cpp">
       <Filter>Source Files\Objects</Filter>
     </ClCompile>
+    <ClCompile Include="dog.cpp">
+      <Filter>Source Files\Objects\Other</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="glsl.h">
@@ -146,6 +149,9 @@
     </ClInclude>
     <ClInclude Include="structs_and_enums.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dog.h">
+      <Filter>Header Files\Objects\Other</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

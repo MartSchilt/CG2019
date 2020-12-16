@@ -6,6 +6,7 @@
 #include "dirt.h"
 #include "bike_rack.h"
 #include "can.h"
+#include "dog.h"
 // House objects
 #include "other_floor.h"
 #include "ground_floor.h"
@@ -328,6 +329,18 @@ std::vector<Object*>* ObjectManager::CreateOther()
     spinning_can->Scale(0.95);
     spinning_can->Position(26, 0.1f, 30);
     other->push_back(spinning_can);
+    
+    Object* dog1 = new Dog();
+    dog1->Scale(0.3);
+    dog1->Rotate(0, 270, 0);
+    dog1->Position(32, 5.8, 24.5);
+    other->push_back(dog1);
+
+    Object* dog2 = new Dog();
+    dog2->Scale(4);
+    dog2->Rotate(0, 90, 0);
+    dog2->Position(-30, -10, -10);
+    other->push_back(dog2);
 
     return other;
 }

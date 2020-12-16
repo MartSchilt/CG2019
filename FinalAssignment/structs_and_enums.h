@@ -3,7 +3,7 @@
 
 using namespace std;
 
-enum MeshType { bikeFrame, bikeRack, can, cone, cube, cubeSkybox, cylinder, lamppost, plane, wheel, null };
+enum MeshType { bikeFrame, bikeRack, can, cone, cube, cubeSkybox, cylinder, dog, lamppost, plane, wheel, null };
 
 enum ShaderType { phong, lambert, standard };
 
