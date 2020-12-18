@@ -32,3 +32,6 @@ Moet volgende keer bezig gaan met code cleanen
 Begonnen met wat code cleanen
 Alle classes, files en etc volgen de google naming convention
 Verder al bezig met wat dingen weghalen die niet worden gebruikt
+
+16-12
+Veel code geupdatet en DOG toegevoegd
