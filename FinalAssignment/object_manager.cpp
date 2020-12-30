@@ -1,4 +1,5 @@
 #include "object_manager.h"
+
 // Include the Object header files here
 #include "skybox.h"
 #include "pavement.h"
@@ -34,7 +35,7 @@ std::vector<Object*> ObjectManager::GetObjects()
 }
 
 // This is the creation of the world
-// Here we define all the models
+// Here we define all the models and insert them
 void ObjectManager::InitWorld()
 {
     Object* skybox = new Skybox();

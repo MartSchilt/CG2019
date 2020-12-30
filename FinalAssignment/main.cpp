@@ -215,7 +215,7 @@ int main(int argc, char** argv)
 
     // Hide console window
     HWND hWnd = GetConsoleWindow();
-    ShowWindow(hWnd, SW_SHOW);
+    ShowWindow(hWnd, SW_HIDE);
 
     // Main loop
     glutMainLoop();

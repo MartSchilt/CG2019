@@ -19,7 +19,7 @@ private:
 	static MeshManager* instance;
 	Vao vaos[null] = {0};
 
-    // The plane is an primitive mesh thus we define the vertices, normals and uvs here
+    // The plane is an primitive mesh, thus we define the vertices, normals and uvs here
     vector<glm::vec3> plane_vertices{
         glm::vec3(1.0, 0, 1.0),
         glm::vec3(-1.0, 0, -1.0),

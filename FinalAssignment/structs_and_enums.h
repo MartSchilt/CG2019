@@ -13,9 +13,9 @@ struct Vao {
 };
 
 struct Material {
-	glm::vec3 ambient_color;	// Ambient lighting, simulates light from other sources.
-	glm::vec3 diffuse_color;	// Diffuse lighting, simulates the directional impact a light object has on an object.
-	glm::vec3 specular;			// Specular lightning, simulates the bright spot of a light.
+	glm::vec3 ambient_color;
+	glm::vec3 diffuse_color;
+	glm::vec3 specular;
 	float power;
 };
 
